@@ -18,13 +18,18 @@ header {
   height: 60px;
   line-height: 60px;
   align-items: center;
+  /* Hace que el navbar se mantenga fijo*/
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  /* Hace que el navbar se mantenga fijo*/
 }
 
 .menu {
   background-color: #bfecd8;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
 }
 
 .logo {
